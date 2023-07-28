@@ -1,0 +1,50 @@
+baseURL = 'http://nlanson.github.io/'
+languageCode = 'en-us'
+title = '~/nlanson/'
+theme = 'PaperMod'
+
+[params]
+    description = "nlanson's webpage"
+    author = "Noah Lanson"
+    showReadingTime = true
+
+# Home page
+[params.homeInfoParams]
+    title = "Noah's Little Page (仮)"
+    content = """
+    Welcome to my web page.
+
+    Here you will find small blog entries about interesting things I come across.
+    """
+
+# Social links
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/nlanson'
+[[params.socialIcons]]
+name = 'youtube'
+url = 'https://www.youtube.com/@NoahLanson'
+
+# Menu organisation
+[menu]
+[[menu.main]]
+    name = 'home'
+    pageRef = '/'
+    weight = 1
+
+[[menu.main]]
+    name = 'all'
+    pageRef = '/posts'
+    weight = 2
+
+[[menu.main]]
+    name = 'tags'
+    pageRef = '/tags'
+    weight = 3
+
+# Page classification
+#   - Tags are used to tag posts by topic.
+#   - Series are used to group certain continuous posts together.
+[taxonomies]
+    tag = 'tags'
+    series = 'series'
