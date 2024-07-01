@@ -17,30 +17,32 @@ theme = 'PaperMod'
     Here you will find small blog entries about interesting things I come across.
     """
 
-# Social links
-[[params.socialIcons]]
-    name = 'github'
-    url = 'https://github.com/nlanson'
-[[params.socialIcons]]
-    name = 'youtube'
-    url = 'https://www.youtube.com/@NoahLanson'
+    # Social links
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/nlanson'
+    [[params.socialIcons]]
+        name = 'youtube'
+        url = 'https://www.youtube.com/@NoahLanson'
+
 
 # Menu organisation
 [menu]
-[[menu.main]]
-    name = 'home'
-    pageRef = '/'
-    weight = 1
+    [[menu.main]]
+        name = 'home'
+        pageRef = '/'
+        weight = 1
 
-[[menu.main]]
-    name = 'tags'
-    pageRef = '/tags'
-    weight = 3
+    [[menu.main]]
+        name = 'tags'
+        pageRef = '/tags'
+        weight = 3
 
-[[menu.main]]
-    name = 'archive'
-    pageRef = '/archives'
-    weight = 4
+    [[menu.main]]
+        name = 'archive'
+        pageRef = '/archives'
+        weight = 4
+
 
 # Page classification
 #   - Tags are used to tag posts by topic.
