@@ -1,7 +1,7 @@
 ---
 title: "What I'm Doing Now #1"
 summary: "Updates on what I'm doing (July 2024)"
-date: 2023-08-07T10:57:32+10:00
+date: 2024-07-01T12:22:32+10:00
 draft: false
 tags: ['skiing', 'life', 'work']
 ---
